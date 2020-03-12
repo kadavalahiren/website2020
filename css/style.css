@@ -1,0 +1,769 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.div_first {
+    height: 100%;
+    margin: auto;
+    background-image: url(../image/party2-slider-bg.jpg);
+    background-size: cover;
+}
+
+.menubar {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+
+.mainmenu {
+    width: 40%;
+    display: inline-block;
+    margin: auto;
+}
+
+ul {
+    padding: 0px;
+}
+
+.menu_left {
+    float: left;
+    margin: auto;
+}
+
+.menu_right {
+    float: right;
+    margin: auto;
+}
+
+.logo {
+    width: 20%;
+    text-align: center;
+    padding: 40px 0px;
+    float: left;
+    display: inline-block;
+}
+
+.menu_item {
+    display: inline-block;
+    padding: 40px 0px;
+}
+
+.text_menu {
+    padding: 0px 20px;
+    color: white;
+}
+
+.themecolor {
+    color: #e6447d;
+}
+
+.text_menu1 {
+    color: white;
+}
+
+.image {
+    width: 65%;
+    margin: auto;
+    text-align: center;
+
+    overflow: auto;
+}
+
+.img1 {
+    width: 200px;
+    position: relative;
+    margin: auto;
+    left: 70px;
+}
+
+.img2 {
+    width: 200px;
+    height: 277px;
+    position: relative;
+    left: 15px;
+}
+
+.img3 {
+    width: 200px;
+
+    position: relative;
+    left: -45px;
+}
+
+.img4 {
+    width: 200px;
+    position: relative;
+    left: -80px;
+}
+
+.text {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+* {
+    text-decoration: none;
+}
+
+.button {
+    width: 19%;
+    margin: auto;
+    overflow: auto;
+}
+
+.button_1 {
+    font-size: 11px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 13px 29px;
+    background-color: #e6447d;
+    float: left;
+    border-radius: 25px;
+}
+
+.txt_btn {
+    color: white;
+}
+
+.button_2 {
+    font-size: 11px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 13px 29px;
+    background-color: #652e79;
+    float: right;
+    border-radius: 25px;
+}
+
+.div_second {
+    width: 100%;
+    margin: auto;
+    background-image: url(../image/party2-sectionbg2.jpg);
+    background-size: cover;
+    padding: 120px 0px 80px 0px;
+    background-position: center top;
+}
+
+.second_div_1 {
+    width: 1100px;
+    margin: 0px auto;
+    position: relative;
+    overflow: auto;
+}
+
+.second_div_1_1 {
+    width: 50%;
+    margin: auto;
+    float: left;
+}
+
+.img_div_2 {
+    width: 100%;
+}
+
+.second_div_1_2 {
+    width: 50%;
+    height: 500px;
+    padding: 0px 0px 0px 85px;
+    float: left;
+}
+
+.sec_div_txt21 {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #4bd3d4;
+    margin: 0px 0px 15px 0px;
+}
+
+.sec_div_txt22 {
+    color: white;
+    font-size: 50px;
+    margin: 0px 0px 15px 0px;
+}
+
+.sec_div_txt23 {
+    color: #897db3;
+    font-size: 15px;
+    margin: 0px;
+    line-height: 25px;
+    font-weight: 400;
+    margin: 0px 0px 15px 0px;
+}
+
+.sec_div_txt24 {
+    color: #897db3;
+    font-size: 15px;
+    margin: 0px 0px 100px 0px;
+    line-height: 25px;
+    font-weight: 400;
+    margin: 0px 0px 15px 0px;
+}
+
+.div_logo_p {
+    overflow: auto;
+}
+
+.logo_div_sec {
+    float: left;
+    margin: 0 30px 15px 0px;
+
+}
+
+.txt_div_sec {
+    color: #897db3;
+    font: 15px;
+    margin: 0px 0px 15px 0px;
+}
+
+.times {
+    width: 80%;
+    margin: auto;
+}
+
+.padd_div {
+    width: 80%;
+    margin: auto;
+    padding: 40px 0px;
+}
+
+.txt_time_1 {
+    width: 60%;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding: 0px 0px 15px 0px;
+    margin: auto;
+}
+
+.txt_color_2 {
+    color: #4bd3d4;
+}
+
+.count_number {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    overflow: auto;
+}
+
+.number_day {
+    width: 33.33%;
+    float: left;
+    padding: 0px 7px 20px 7px;
+}
+
+.zero {
+    font-size: 90px;
+    color: #e6447d;
+}
+
+.title {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+
+}
+
+.number_hours {
+    width: 33.33%;
+    float: left;
+    padding: 0px 7px 20px 7px;
+}
+
+.number_minutes {
+    width: 33.33%;
+    float: left;
+    padding: 0px 7px 20px 7px;
+}
+
+.butt_buy {
+    width: 210px;
+    height: 60px;
+    text-align: center;
+    margin: auto;
+    padding: 20px 20px;
+}
+
+.btn_buy {
+    background-color: #ef4231;
+    color: white;
+    font-size: 15px;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+
+.div_third {
+    width: 100%;
+    margin: auto;
+    padding: 120px 0px 80px 0px;
+    background-image: url(../image/party2-sectionbg3.jpg);
+    background-size: cover;
+    background-position: center right;
+}
+
+.div_third_1 {
+    width: 80%;
+    margin: auto;
+}
+
+.txt_third_1 {
+    color: #4bd3d4;
+    font-size: 15px;
+    margin: 0px 0px 15px 0px;
+    text-align: center;
+}
+
+.txt_third_2 {
+    font-size: 50px;
+    color: white;
+    padding: 0px 0px 15px 0px;
+    margin: 0px 0px 100px 0px;
+    text-align: center;
+}
+
+.third_div_img {
+    overflow: auto;
+}
+
+.pad_space {
+    width: 100%;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.third_img_1 {
+    width: 31.5%;
+    margin-right: 25px;
+    float: left;
+}
+
+.img_1 {
+    width: 100%;
+    position: relative;
+    top: -110px;
+}
+
+.third_txt1 {
+    font-size: 32px;
+    text-align: center;
+    margin: auto;
+    padding: 0px 0px 15px 0px;
+}
+
+.third_txt2 {
+    color: #798db3;
+    text-align: center;
+    line-height: 25px;
+    margin: 0px 0px 50px 0px;
+    padding: 0px 0px 15px 0px;
+}
+
+.third_txt3 {
+    color: #726198;
+    font-size: 13px;
+    margin: 0px 0px 15px 0px;
+}
+
+.dot_p {
+    overflow: auto;
+    margin: 0px 0px 15px 0px;
+}
+
+.dot {
+    float: left;
+    font-size: 25px;
+    color: #e6447d;
+    text-align: center;
+    padding: 0px 3px;
+    position: relative;
+    bottom: 11px;
+}
+
+.p_1 {
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+
+.p_2 {
+    width: 100%;
+    float: left;
+    margin: 0;
+}
+
+.mar_0 {
+    font-size: 15px;
+    margin: 0px;
+}
+
+.third_img_2 {
+    width: 31.5%;
+    margin-right: 25px;
+    float: left;
+}
+
+.third_img_3 {
+    width: 31.5%;
+    float: left;
+}
+
+.third_txt {
+    background-color: #150e2d;
+    padding: 45px 44px;
+    color: white;
+    border-radius: 40px 0px 40px 0px;
+}
+
+.div_four {
+    width: 100%;
+    padding: 120px 0px 80px 0px;
+    background-image: url(../image/party2-sectionbg5.jpg);
+    background-size: cover;
+}
+
+.div_four_1 {
+    width: 80%;
+    margin: auto;
+}
+
+.four_txt1 {
+    text-align: center;
+    font-size: 13px;
+    color: #4bd3d4;
+    margin: 0px 0px 15px 0px;
+}
+
+.four_txt2 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin: 0px 0px 50px 0px;
+    padding: 0px 0px 15px 0px;
+}
+
+.div_four_icon {
+    width: 100%;
+    margin: auto;
+    padding: 0px 0px 100px 0px;
+    overflow: auto;
+}
+
+.four_icon1 {
+    width: 32%;
+    margin-right: 15px;
+    padding: 10px 0px;
+    float: left;
+}
+
+.div_i1 {
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+}
+
+.four_txt3 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+}
+
+.four_txt4 {
+    color: #879bd3;
+    margin: 0px;
+    line-height: 25px;
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+}
+
+.four_icon2 {
+    width: 32%;
+    margin-right: 15px;
+    padding: 10px 0px;
+    float: left;
+}
+
+.four_icon3 {
+    width: 32%;
+    padding: 10px 0px;
+    float: left;
+}
+
+.four_icon4 {
+    width: 32%;
+    margin-right: 15px;
+    padding: 10px 0px;
+    float: left;
+}
+
+.four_icon5 {
+    width: 32%;
+    margin-right: 15px;
+    padding: 10px 0px;
+    float: left;
+}
+
+.four_icon6 {
+    width: 32%;
+    float: left;
+    padding: 10px 0px;
+}
+
+.div_four_img_txt {
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+}
+
+.four_images {
+    width: 100%;
+    margin: auto;
+}
+
+.div_four_img1 {
+    width: 50%;
+    float: left;
+}
+
+.four_ig1 {
+    width: 100%;
+}
+
+.div_four_txt1 {
+    width: 50%;
+    float: left;
+    padding: 40px 0px 0px 60px;
+}
+
+.four_txt_1 {
+    color: white;
+    font-size: 32px;
+    margin: 0px 0px 15px 0px;
+}
+
+.four_txt_2 {
+    color: #879bd3;
+    font-size: 15px;
+    margin: 0px;
+    line-height: 25px;
+    margin: 0px 0px 15px 0px;
+}
+
+.four_txt_3 {
+    color: #879bd3;
+    font-size: 15px;
+    margin: 0px;
+    line-height: 30px;
+    margin: 0px 0px 15px 0px;
+}
+
+.div_four_img_txt2 {
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+    margin: 0px 0px 15px 0px;
+}
+
+.div_four_img_txt3 {
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+    padding: 40px 0px 0px 0px;
+}
+
+.div_four_text1 {
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding: 40px 60px 0px 0px;
+}
+
+.div_five {
+    width: 100%;
+    margin: auto;
+    background-image: url(../image/party2-sectionbg5.jpg);
+    padding: 120px 0px 80px 0px;
+}
+
+.div_five_first {
+    width: 80%;
+    margin: auto;
+}
+
+.five_txt1 {
+    color: #4bd3d4;
+    font-size: 13px;
+    padding: 0px 0px 15px 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.five_txt2 {
+    font-size: 50px;
+    color: white;
+    padding: 0px 0px 15px 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.five_div_img {
+    overflow: auto;
+    margin-bottom: 40px;
+}
+
+.five_img_1 {
+    width: 31.5%;
+    margin-right: 25px;
+    float: left;
+}
+
+.five_img_2 {
+    width: 31.5%;
+    margin-right: 25px;
+    float: left;
+}
+
+.five_img_3 {
+    width: 31.5%;
+    float: left;
+}
+
+.five_txt {
+    background-color: #150e2d;
+    padding: 45px 44px;
+    color: white;
+    border-radius: 40px 0px 40px 0px;
+}
+
+.five_img1 {}
+
+.five_txt1 {
+    font-size: 32px;
+    text-align: center;
+    margin: auto;
+    padding: 0px 0px 15px 0px;
+}
+
+.five_txt2 {
+    color: #798db3;
+    text-align: center;
+    line-height: 25px;
+    margin: 0px 0px 50px 0px;
+    padding: 0px 0px 15px 0px;
+}
+
+.five_txt3 {
+    color: #726198;
+    font-size: 13px;
+    margin: 0px 0px 15px 0px;
+}
+
+.five_h6 {
+    font-size: 13px;
+    color: #726198;
+    padding: 0px 0px 15px;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+}
+
+.five_price {
+    margin: 0px 0px 15px 0px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.five_person {
+    margin: 0px 0px 15px 0px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.btn_buy {
+    background-color: #ef4231;
+    color: white;
+    font-size: 15px;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+.padd_div{
+    width: 98%;
+    padding: 0px 0px 100px 0px;
+}
+.div_text5{
+    width: 70%;
+    margin: auto;
+}
+.txt_5{
+    font-size: 50px;
+    margin: 0px 0px 15px 0px;
+    color: white;
+    text-align: center;
+}
+.image_six{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    
+}
+.six_img{
+    width: 80%;
+    height: 100%;
+    margin:auto;
+    top: 0;
+    bottom: 0;
+    position: relative;
+    background-size: cover;
+    background-image: url(../image/party2-columnbg1.jpg);
+    border-radius: 100px 0px 100px 0px;
+    padding: 180px 115px 140px 115px;
+}
+.h6_tx{
+    width: 70%;
+    margin: auto;
+}
+.image_txt_1{
+    font-size: 13px;
+    color: #4bd3d4;
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+}
+.image_txt_2{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+}
+.h2_tx{
+    width: 70%;
+    margin: auto;
+}
+.btn_div{
+    width: 115px;
+    margin: 0px auto 15px auto;
+}
+.six_btn{
+    width: 120px;
+    height: 50px;
+    font-size: 15px;
+    background-color: #ef4231;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    padding: 16px 20px;
+    border-radius: 5px;
+}
